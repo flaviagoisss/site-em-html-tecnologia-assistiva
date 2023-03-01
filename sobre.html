@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <style>
+      body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+      }
+      .dark-mode {
+          background-color: black;
+          color: white;
+      }
+      img {
+          width: 100px;
+      }
+  </style>
+</head>
+<body>
+
+  <img src="https://cdn-icons-png.flaticon.com/512/125/125768.png" onclick="darkMode()"/>
+  <script>
+      function darkMode() {
+          let minhaImagem = document.querySelector('img');
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+          let meuSrc = minhaImagem.getAttribute('src');
+          if(meuSrc === 'https://cdn-icons-png.flaticon.com/512/125/125768.png') {
+              minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/2988/2988036.png');
+          } else {
+              minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/125/125768.png');
+          }
+      }
+  </script>
+  
+
+    <header>
+      <h1>tecnologia assistiva</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+        <li><a href="informação.html">informação</a></li>
+      </ul>
+
+      
+    </nav>
+ 
+    <main>
+
+   
+      <article>
+        <h3>Leitores de tela e ampliadores de imagem</h2>
+
+        <p>Uma das mais bem sucedidas tecnologias assistivas são os leitores de tela, que basicamente fazem o
+        <br>trabalho de transcrever para linguagem falada o conteúdo textual presente na tela do dispositivo 
+            eletrônico, como computadores, celulares e tablets. Ele é pensado para pessoas com baixa visão ou
+         cegueira completa e tem sido amplamente utilizado pois cumpre muito bem a função de transmitir para pessoa cega as informações presentes na página.</p>
+         <br>
+         <br>
+         <h3>Quais são as tecnologias assistivas na escola?</h3>
+         <p>São exemplos de tecnologia assistiva na escola os materiais
+           escolares e pedagógicos acessíveis, a comunicação alternativa, 
+           os recursos de acessibilidade ao computador, os recursos para 
+           mobilidade, localização, a sinalização, o mobiliário que atenda 
+           às necessidades posturais, entre outros.
+
+        <h3></h3>
+
+        <p></p>
+
+        <p></p>
+
+        <h3></h3>
+
+        <p></p>
+
+        <p></p>
+      </article>
+
+      <aside>
+       
+      </aside>
+
+    </main>
+
+    <footer>
+      <p></p>
+    </footer>
+
+  </body>
+</html>

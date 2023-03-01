@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <style>
+      body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+      }
+      .dark-mode {
+          background-color: black;
+          color: white;
+      }
+      img {
+          width: 100px;
+      }
+  </style>
+</head>
+<body>
+
+  <img src="https://cdn-icons-png.flaticon.com/512/125/125768.png" onclick="darkMode()"/>
+  <script>
+      function darkMode() {
+          let minhaImagem = document.querySelector('img');
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+          let meuSrc = minhaImagem.getAttribute('src');
+          if(meuSrc === 'https://cdn-icons-png.flaticon.com/512/125/125768.png') {
+              minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/2988/2988036.png');
+          } else {
+              minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/125/125768.png');
+          }
+      }
+  </script>
+  
+
+    <header>
+      <h3>tecnologias assistiva</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+        <li><a href="informação.html">informação</a></li>
+      </ul>
+
+      
+    </nav>
+ 
+    <main>
+
+   
+      <article>
+        <h3> informação</h2>
+
+        <p></p>
+
+        <p>Uma solução para a inclusão das pessoas com deficiência na sociedade são as ferramentas de tecnologia assistiva (TA).
+        <br> Essas ferramentas são usadas justamente para tentar devolver ou aproximar as habilidades funcionais dessas pessoas às das pessoas sem deficiência. 
+        <br>A fisioterapeuta Rita Bersch diz que “A TA deve ser entendida como um auxílio que promoverá a ampliação de uma habilidade funcional deficitária ou 
+        <br>possibilitará a realização da função desejada e que se encontra impedida por circunstância de deficiência ou pelo envelhecimento” (BERSCH, p. 2, 2017). </hp>
+        <br>
+        <br>
+
+        <h3>Exemplos de tecnologia assistiva:</h3>
+         
+        <p> Rampas de acesso a calçadas e a prédios;
+          Andadores;
+          Lupas manuais ou eletrônicas;
+          Softwares ampliadores de tela;
+          Aparelhos para surdez;
+          Avatares Libras.</p>
+          <br>
+          <h3>O que é considerado tecnologia assistiva?</h3>
+         
+          <p>“tecnologia assistiva ou ajuda técnica: produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, 
+              práticas e serviços que objetivem promover a funcionalidade, relacionada à atividade e à participação da pessoa  
+              com deficiência ou com mobilidade reduzida, visando à sua autonomia, independência, qualidade</p>
+
+
+
+              
+     
+        <p></p>
+
+        <h3></h3>
+
+        <p></p>
+
+        <p></p>
+      </article>
+
+      <aside>
+       
+      </aside>
+
+    </main>
+
+    <footer>
+      <p></p>
+    </footer>
+
+  </body>
+</html>
